@@ -35,6 +35,10 @@ public class WriteFile {
         return randomNum;
     }
 
+    /**
+     * 写出10000000随机数，分段写
+     * @param filename
+     */
     public static void Write2FileByOutputStream(String filename) {
         File file = new File(filename);
         FileOutputStream fos = null;
@@ -60,21 +64,12 @@ public class WriteFile {
                     String str = i1 + "," + "a" + "," + i1 +"," + "b"  + "," + (i1 + 10);
 
                     if(!strings.contains(str)){
-                        if(i1 == 4340000){
-                            System.out.println("*******");
-                            System.out.println(i1);
-                            System.out.println("*******");
-                        }
                         strings.add(str);
                         bw.write(str);
                         bw.newLine();
                     }
-                    /*if(i1 == 4340000){
-                        System.out.println(str);
-                    }*/
                 }
                 bw.flush();
-                //System.out.println(i);
 
             }
 

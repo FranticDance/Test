@@ -19,7 +19,34 @@
             <version>3.9</version>
         </dependency>
 
+        <dependency>
+            <groupId>com.datasw.filesystem</groupId>
+            <artifactId>alluxio-component</artifactId>
+            <version>1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.datasw.filesystem</groupId>
+            <artifactId>hdfs-component</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
 
+        <dependency>
+            <groupId>com.datasw.utils</groupId>
+            <artifactId>datasw-excelutils</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.postgresql</groupId>
+            <artifactId>postgresql</artifactId>
+            <version>42.2.5</version>
+        </dependency>
+
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>1.2.58</version>
+        </dependency>
     </dependencies>
 
     <build>
