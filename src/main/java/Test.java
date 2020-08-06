@@ -15,8 +15,9 @@ import java.util.stream.Collectors;
  */
 public class Test {
     public static void main(String[] args) throws Exception{
-       String fileName = "C:\\Users\\lee\\Desktop\\数据源Data.txt";
-       readFileByLines(fileName);
+       /*String fileName = "C:\\Users\\lee\\Desktop\\数据源Data.txt";
+       readFileByLines(fileName);*/
+        System.out.println( 3 % 3);
        /* String pattern = "[\\u4E00-\\u9FA5]+";
         boolean a = Pattern.matches(pattern, "删除");
         System.out.println(a);*/
