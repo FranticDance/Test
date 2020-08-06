@@ -9,6 +9,7 @@ public class Callee {
 
     private class Cloure implements Incrementable{
         @Override
+
         public void increment() {
             Callee.this.add();
         }
