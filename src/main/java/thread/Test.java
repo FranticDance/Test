@@ -23,6 +23,7 @@ class Thread21 extends Thread{
         System.out.println("thread21");
         synchronized (SyncObject2.a) {
             int a = SyncObject2.a;
+            System.out.println("thread21:" + a);
             try {
                 Thread.sleep(20000);
             } catch (InterruptedException e) {
